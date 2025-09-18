@@ -1,17 +1,18 @@
+
 body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
     display: flex;
-    justify-content: center;
-    align-items:flex-start
-    flex-direction:column;
-    min-height: 80vh;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
     background-color: #f0f0f0;
 }
 
 main {
     text-align: center;
+    padding:20px;
 }
 
 .text-frutas {
@@ -29,4 +30,25 @@ main {
     height: auto;      
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+
+header {
+    background-color: #2c2929;
+    color: rgb(29, 28, 28);
+    padding: 20px 0;
+    width: 100%;
+    position:top;
+    top:0;
+    left:0;
+    right:0;
+    z-index:1000
+  }
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #5a5a5acc;
 }
