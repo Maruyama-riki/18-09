@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start
+    flex-direction:column;
+    min-height: 80vh;
+    background-color: #f0f0f0;
+}
+
+main {
+    text-align: center;
+}
+
+.text-frutas {
+    font-size: 5vw; 
+    font-weight: bold;
+    color: #333;
+    margin: 20px 0;
+    justify-content: right;
+}
+
+.imge {
+    width: 30vw;       
+    min-width: 40vw;  
+    max-width: 50vw;  
+    height: auto;      
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
